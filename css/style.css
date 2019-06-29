@@ -1,0 +1,972 @@
+main {
+      width: 100%;
+}
+
+body {
+      width: 100%;
+      height: 100%;
+}
+
+header {
+      margin: 0 auto;
+      width: 100%;
+      padding-top: 100px;
+}
+
+.headernavigatiebalk {
+      height: 100px;
+      width: 100%;
+      position: fixed;
+      z-index: 3;
+      background-color: white;
+      top: 0;
+      left: 0;
+}
+
+.clear {
+      clear: both;
+}
+
+ul {
+      list-style-type: none;
+      overflow: hidden;
+      margin-right: 2%;
+      margin-top: 15px;
+      float: right;
+}
+
+li {
+      float: left;
+      margin-right: 90px;
+}
+
+li a {
+      display: block;
+      color: #1D00FF;
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 1em;
+      text-transform: uppercase;
+      margin-top: 30px;
+      margin-bottom: 30px;
+}
+
+#logo {
+      margin-left: 5%;
+      margin-top: 22px;
+      margin-bottom: 22px;
+      float: left;
+}
+
+.clear {
+      clear: both;
+}
+
+.headerfoto {
+      background: linear-gradient( rgba(29, 0, 255, 0.9), rgba(0, 118, 255, 0.9)), url(..//img/src/daria-nepriakhina-736026-unsplash@2x.jpg);
+      height: 700px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      margin-bottom: 0px;
+      padding-top: 10px;
+}
+
+.headertext {
+      color: white;
+      margin: 0 auto;
+      width: 70%;
+}
+
+.headertext h1 {
+      font-family: 'Playfair Display', serif;
+      font-weight: bold;
+      font-size: 3.5em;
+      margin-top: 60px;
+      margin-bottom: 27px;
+      width: 100%;
+}
+
+.headertext p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.2em;
+      line-height: 1.5em;
+      letter-spacing: 0.05em;
+      width: 80%;
+}
+
+.container {
+      width: 87%;
+      background: white;
+      margin: auto;
+      margin-top: -15%;
+      position: relative;
+      z-index: 2;
+}
+
+.container h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 1em;
+      color: #1D00FF;
+      padding: 5%;
+}
+
+#accordion {
+      width: 90%;
+      margin-left: 5%;
+      margin-bottom: 70px;
+}
+
+.accordionbuttons h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 1em;
+      letter-spacing: 0.05em;
+      margin-top: 20px;
+      margin-bottom: 23px;
+      margin-left: 5%;
+}
+
+.intro {
+      width: 10%;
+      height: 40px;
+      background-color: #FFAFE3;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.1vw;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #CC0085;
+      border-radius: 40px;
+      border: 0;
+      margin-top: -50px;
+      float: right;
+      margin-right: 10px;
+}
+
+.workshop {
+      width: 14%;
+      height: 40px;
+      background-color: #D1E7FF;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.1vw;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #1D00FF;
+      border-radius: 40px;
+      border: 0;
+      float: right;
+      margin-top: -50px;
+      margin-right: 10px;
+}
+
+.downloads {
+      width: 18%;
+      height: 40px;
+      background-color: #000;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.1vw;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #FFFF;
+      border-radius: 10px;
+      border: 0;
+      background-image: url(..//icons/download_icon@2x.png);
+      background-repeat: no-repeat;
+      background-position: left;
+      background-position-x: 15px;
+      background-position-y: 10px;
+      float: right;
+      margin-right: 17%;
+      margin-top: -50px;
+}
+
+.checkmodal {
+      width: 8%;
+      height: 40px;
+      border-radius: 30px;
+      border: 0px solid;
+      background-color: #BBFFB2;
+      background-image: url(..//icons/done_icon@2x.png);
+      background-repeat: no-repeat;
+      background-position-x: 50%;
+      background-position-y: 50%;
+      float: right;
+      margin-right: 37%;
+      margin-top: -50px;
+      display: none;
+}
+
+.ui-accordion-header-collapsed {
+      color: #4B4B4B;
+      border: 1px solid #EBEBEB;
+      background-image: url(..//icons/pijltje_collapsed@2x.png);
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      background-position-x: 0.5%;
+}
+
+.ui-accordion-header-active {
+      color: #1D00FF;
+      border: 1px solid #1D00FF;
+      background-image: url(..//icons/pijltje_active@2x.png);
+      background-repeat: no-repeat;
+      background-position-y: 30%;
+      background-position-x: 1%;
+}
+
+.rewind {
+      width: 6%;
+      height: 10%;
+      border-radius: 50%;
+      background-color: white;
+      border: 0px solid;
+      background-image: url(../icons/rewind_icon@2x.png);
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      background-position-x: 50%;
+      position: absolute;
+      display: none;
+      top: 52%;
+      left: 38%;
+}
+
+.playpause {
+      width: 9%;
+      height: 15%;
+      border-radius: 50%;
+      background-color: white;
+      border: 0px solid;
+      background-image: url(../icons/playbutton@2x.png);
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      background-position-x: 40%;
+      position: absolute;
+      display: none;
+      top: 50%;
+      left: 45%;
+}
+
+.videocheck {
+      width: 6%;
+      height: 10%;
+      border-radius: 50%;
+      background: #BBFFB2;
+      border: 0px solid;
+      background-image: url(../icons/done_icon@2x.png);
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      background-position-x: 50%;
+      position: absolute;
+      display: none;
+      top: 52%;
+      left: 55%;
+}
+
+.videoaccordion {
+      position: relative;
+}
+
+.videoaccordion:hover .rewind {
+      display: inline-block;
+}
+
+.videoaccordion:hover .playpause {
+      display: inline-block;
+}
+
+.videoaccordion:hover .videocheck {
+      display: inline-block;
+}
+
+#contactpersonen {
+      margin: 0 auto;
+      width: 78%;
+      overflow: hidden;
+}
+
+#contactpersonen h1 {
+      font-family: 'Playfair Display', serif;
+      font-weight: bold;
+      font-size: 3.5em;
+      color: #1D00FF;
+      margin-bottom: 100px;
+}
+
+#contactpersonen h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 1em;
+      color: #1D00FF;
+      margin-bottom: 50px;
+}
+
+.naam {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 1.5em;
+      color: black;
+      padding-bottom: 10px;
+}
+
+#contactpersonen h4 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.2em;
+      color: #EBEBEB;
+      padding-bottom: 10px;
+}
+
+.email {
+      width: 50%;
+      height: 40px;
+      background-color: black;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1em;
+      text-transform: uppercase;
+      color: white;
+      border-radius: 10px;
+}
+
+.contactpersoon {
+      margin: auto;
+      width: 100%;
+}
+
+.persoon1 {
+      float: left;
+}
+
+.persoon2 {
+      float: right;
+      margin-right: 15%;
+}
+
+.persoon3 {
+      float: left;
+}
+
+.persoon4 {
+      float: right;
+      margin-right: 15%;
+}
+
+.gegevens {
+      padding-top: 30px;
+      padding-left: 15px;
+      float: right;
+}
+
+.foto {
+      max-width: 200px;
+      border-radius: 50%;
+      border: 1px white;
+      margin-bottom: 60px;
+}
+
+.footerfoto {
+      background: linear-gradient( rgba(255, 175, 227, 0.9), rgba(204, 0, 133, 0.9)), url(..//img/src/nicole-wolf-1339717-unsplash@2x.jpg);
+      width: 100%;
+      height: 380px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      margin-top: 40px;
+}
+
+.footertext {
+      width: 60%;
+      margin: 0 auto;
+}
+
+.footerfoto h1 {
+      font-family: 'Playfair Display', serif;
+      font-weight: bold;
+      font-size: 3.5em;
+      text-align: center;
+      color: white;
+      padding-top: 5%;
+      margin-bottom: 5%;
+}
+
+.footerfoto p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.2em;
+      letter-spacing: 0.05em;
+      color: white;
+      text-align: center;
+      margin-top: 6%;
+      margin-bottom: 6%;
+}
+
+.footerfoto button {
+      width: 30%;
+      height: 60px;
+      background-color: #1D00FF;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 1.3em;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #FFAFE3;
+      border-radius: 10px;
+      border: 0px;
+      margin: 0 auto;
+      display: block;
+}
+
+.footerthemeswitch {
+      width: 100%;
+      height: 125px;
+      background-color: black;
+}
+
+.footerthemeswitch h5 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1em;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: white;
+      float: left;
+      margin-right: 20px;
+      margin-top: 15px;
+}
+
+/* geen vinkje aan of uit */
+#switch {
+      visibility: hidden;
+      position: absolute;
+}
+
+/* background button */
+.switch-label {
+      background: white;
+      display: flex;
+      align-items: center;
+      width: 100px;
+      height: 40px;
+      border: 1px solid #ccc;
+      border-radius: 100px;
+      position: relative;
+      cursor: pointer;
+      transition: 0.5s all ease;
+}
+
+/* toggle knopje */
+.switch-label .toggle {
+      width: 25px;
+      height: 25px;
+      border-radius: 25px;
+      background-color: black;
+      position: absolute;
+      left: 3px;
+      transition: .5s all ease;
+}
+
+.switchmode {
+      float: right;
+      padding: 30px;
+}
+
+#switch:checked~.switch-label {
+      background: white;
+      border: none;
+      transition: .5s all ease;
+}
+
+#switch:checked~.switch-label .toggle {
+      height: 12.5px;
+      border-radius: 25px 25px 0 0;
+      background: transparent;
+      box-shadow: 0 -6px 0 0 black;
+      transform: scale(0.9) translateX(75px) rotate(90deg);
+      transition: .7s all ease;
+}
+
+.modal {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      transform: scale(1.1);
+      transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+      z-index: 3;
+      display: none;
+}
+
+.modal-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #BBFFB2;
+      padding: 1em 1.5em;
+      width: 30%;
+      border-radius: 0.5em;
+      -webkit-animation: rotate-scale-up 0.65s linear both;
+      animation: rotate-scale-up 0.65s linear both;
+}
+
+@-webkit-keyframes rotate-scale-up {
+      0% {
+            -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+      }
+      50% {
+            -webkit-transform: scale(2) rotateZ(180deg);
+            transform: scale(2) rotateZ(180deg);
+      }
+      100% {
+            -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
+      }
+}
+
+@keyframes rotate-scale-up {
+      0% {
+            -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+      }
+      50% {
+            -webkit-transform: scale(2) rotateZ(180deg);
+            transform: scale(2) rotateZ(180deg);
+      }
+      100% {
+            -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
+      }
+}
+
+.tekstmodal {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2em;
+      letter-spacing: 0.05em;
+      color: #119910;
+}
+
+.close-button {
+      float: right;
+      width: 1.5rem;
+      line-height: 1.5em;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 0.25rem;
+      background-color: #BBFFB2;
+}
+
+body.dark {
+      background-color: black;
+}
+
+.dark .container {
+      background-color: black;
+}
+
+.dark .headernavigatiebalk {
+      background-color: black;
+}
+
+.dark a {
+      color: white;
+}
+
+.dark h2 {
+      color: white;
+}
+
+.dark h3 {
+      color: white;
+}
+
+.dark h1 {
+      color: white;
+}
+
+.dark #contactpersonen h2 {
+      color: white;
+}
+
+.dark .naam {
+      color: white;
+}
+
+.dark .email {
+      background-color: white;
+}
+
+.dark .email {
+      color: black;
+}
+
+.dark .ui-accordion-header-active h3 {
+      color: #1D00FF;
+}
+
+.dark .ui-accordion-header-collapsed h3 {
+      color: white;
+}
+
+.dark #contactpersonen h1 {
+      color: white;
+}
+
+.dark .tekstmodal {
+      color: #119910;
+}
+
+
+
+
+@media only screen and (max-width: 950px) {
+      .headertext h1 {
+            font-size: 3em;
+      }
+      .headertext p {
+            font-size: 0.9em;
+      }
+      .footertext h1 {
+            font-size: 3em;
+      }
+      .footertext p {
+            font-size: 0.9em;
+      }
+      #contactpersonen h1 {
+            font-size: 3em;
+      }
+      li a {
+            font-size: 0.8em;
+      }
+      .downloads {
+            background-size: 0px;
+      }
+      .footerfoto button {
+            font-size: 0.7em;
+      }
+      .accordionbuttons h3 {
+            font-size: 0.9em;
+      }
+      .footerthemeswitch h5 {
+            font-size: 1em;
+      }
+      .container h2 {
+            font-size: 0.9em;
+      }
+      #contactpersonen h2 {
+            font-size: 0.9em;
+      }
+      .headerfoto {
+            height: 600px;
+      }
+      .persoon2 {
+            float: left;
+      }
+      .persoon4 {
+            float: left;
+      }
+      .ui-accordion-header-collapsed {
+            background-size: 20px;
+      }
+      .ui-accordion-header-active {
+            background-size: 20px;
+      }
+      .rewind {
+            background-size: 27px;
+      }
+      .playpause {
+            background-size: 27px;
+      }
+      .videocheck {
+            background-size: 27px;
+      }
+      .tekstmodal {
+            font-size: 1.8em;
+      }
+}
+
+@media only screen and (max-width: 630px) {
+      .headertext h1 {
+            font-size: 2em;
+      }
+      .headertext p {
+            font-size: 0.8em;
+      }
+      .footertext h1 {
+            font-size: 2em;
+      }
+      .footertext p {
+            font-size: 0.8em;
+      }
+      #contactpersonen h1 {
+            font-size: 2em;
+      }
+      li {
+            margin-right: 30px;
+      }
+      li a {
+            font-size: 0.8em;
+      }
+      .workshop {
+            height: 25px;
+      }
+      .downloads {
+            height: 25px;
+      }
+      .intro {
+            height: 25px;
+      }
+      .checkmodal {
+            height: 25px;
+            background-size: 20px;
+      }
+      .footerfoto button {
+            font-size: 0.6em;
+            height: 30px;
+            width: 40%;
+      }
+      .accordionbuttons h3 {
+            font-size: 0.8em;
+      }
+      h2 {
+            font-size: 0.8em;
+      }
+      .foto {
+            max-width: 150px;
+      }
+      .naam {
+            font-size: 0.8em;
+      }
+      #contactpersonen h4 {
+            font-size: 0.8em;
+      }
+      .email {
+            font-size: 0.8em;
+      }
+      .footerthemeswitch h5 {
+            font-size: 0.8em;
+      }
+      .container h2 {
+            font-size: 0.8em;
+      }
+      #contactpersonen h2 {
+            font-size: 0.8em;
+      }
+      .headerfoto {
+            height: 500px;
+      }
+      .persoon2 {
+            float: left;
+      }
+      .persoon4 {
+            float: left;
+      }
+      .ui-accordion-header-collapsed {
+            background-size: 15px;
+      }
+      .ui-accordion-header-active {
+            background-size: 15px;
+      }
+      .rewind {
+            background-size: 20px;
+      }
+      .playpause {
+            background-size: 20px;
+      }
+      .videocheck {
+            background-size: 20px;
+      }
+      .tekstmodal {
+            font-size: 1.5em;
+      }
+      .footerfoto {
+            height: 210px;
+      }
+}
+
+@media only screen and (max-width: 540px) {
+      .headertext h1 {
+            font-size: 1.5em;
+      }
+      .headertext p {
+            font-size: 0.7em;
+      }
+      .footertext h1 {
+            font-size: 1.5em;
+      }
+      .footertext p {
+            font-size: 0.7em;
+      }
+      #contactpersonen h1 {
+            font-size: 1.5em;
+      }
+      li a {
+            font-size: 0.7em;
+      }
+      .workshop {
+            height: 20px;
+      }
+      .downloads {
+            height: 20px;
+      }
+      .intro {
+            height: 20px;
+      }
+      .checkmodal {
+            height: 20px;
+            background-size: 15px;
+            margin-right: 20%;
+      }
+      .footerfoto button {
+            font-size: 0.5em;
+            height: 35px;
+      }
+      .accordionbuttons h3 {
+            font-size: 0.7em;
+      }
+      h2 {
+            font-size: 0.6em;
+      }
+      .foto {
+            max-width: 100px;
+      }
+      .naam {
+            font-size: 0.7em;
+      }
+      #contactpersonen h4 {
+            font-size: 0.7em;
+      }
+      .email {
+            font-size: 0.7em;
+            height: 20px;
+      }
+      .footerthemeswitch h5 {
+            font-size: 0.7em;
+      }
+      .container h2 {
+            font-size: 0.7em;
+      }
+      #contactpersonen h2 {
+            font-size: 0.7em;
+      }
+      .headerfoto {
+            height: 400px;
+      }
+      .persoon2 {
+            float: left;
+      }
+      .persoon4 {
+            float: left;
+      }
+      .ui-accordion-header-collapsed {
+            background-size: 10px;
+      }
+      .ui-accordion-header-active {
+            background-size: 10px;
+      }
+      .rewind {
+            background-size: 15px;
+      }
+      .playpause {
+            background-size: 15px;
+      }
+      .videocheck {
+            background-size: 15px;
+      }
+      .tekstmodal {
+            font-size: 1em;
+      }
+      .footerfoto {
+            height: 170px;
+      }
+}
+
+@media only screen and (max-width: 420px) {
+      .headertext h1 {
+            font-size: 1.3em;
+      }
+      .headertext p {
+            font-size: 0.6em;
+      }
+      .footertext h1 {
+            font-size: 1.3em;
+      }
+      .footertext p {
+            font-size: 0.6em;
+      }
+      li {
+            margin-right: 15px;
+      }
+      li a {
+            font-size: 0.6em;
+      }
+      #contactpersonen h1 {
+            font-size: 1.3em;
+      }
+      .downloads {
+            display: none;
+      }
+      .accordionbuttons h3 {
+            font-size: 0.6em;
+      }
+      h2 {
+            font-size: 0.6em;
+      }
+      .foto {
+            max-width: 80px;
+      }
+      .gegevens {
+            padding-top: 15px;
+      }
+      .naam {
+            font-size: 0.6em;
+      }
+      #contactpersonen h4 {
+            font-size: 0.6em;
+      }
+      .email {
+            font-size: 0.6em;
+            height: 15px;
+      }
+      .footerthemeswitch h5 {
+            font-size: 0.6em;
+      }
+      .container h2 {
+            font-size: 0.6em;
+      }
+      #contactpersonen h2 {
+            font-size: 0.6em;
+      }
+      .ui-accordion-header-collapsed {
+            background-size: 0px;
+      }
+      .ui-accordion-header-active {
+            background-size: 0px;
+      }
+      .rewind {
+            background-size: 17px;
+      }
+      .playpause {
+            background-size: 17px;
+      }
+      .videocheck {
+            background-size: 17px;
+      }
+      .tekstmodal {
+            font-size: 0.7em;
+      }
+      .footerfoto {
+            height: 150px;
+      }
+}
+
+.clear {
+      clear: both;
+}
+
+img {
+      max-width: 100%;
+      height: auto;
+}
