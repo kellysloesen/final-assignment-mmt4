@@ -223,7 +223,7 @@ li a {
       border-radius: 50%;
       background-color: white;
       border: 0px solid;
-      background-image: url(../icons/rewind_icon@2x.png);
+      background-image: url(..//icons/rewind_icon@2x.png);
       background-repeat: no-repeat;
       background-position-y: 50%;
       background-position-x: 50%;
@@ -239,7 +239,7 @@ li a {
       border-radius: 50%;
       background-color: white;
       border: 0px solid;
-      background-image: url(../icons/playbutton@2x.png);
+      background-image: url(..//icons/playbutton@2x.png);
       background-repeat: no-repeat;
       background-position-y: 50%;
       background-position-x: 40%;
@@ -255,7 +255,7 @@ li a {
       border-radius: 50%;
       background: #BBFFB2;
       border: 0px solid;
-      background-image: url(../icons/done_icon@2x.png);
+      background-image: url(..//icons/done_icon@2x.png);
       background-repeat: no-repeat;
       background-position-y: 50%;
       background-position-x: 50%;
