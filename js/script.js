@@ -45,13 +45,13 @@ $('video').each(function () {
         if (geklikt) {
             player.pause();
             geklikt = false;
-            $(this).parents(".videoaccordion").find('.playpause').css("background-image", "url('..//icons/playbutton@2x.png')");
+            $(this).parents(".videoaccordion").find('.playpause').css("background-image", "url('../icons/playbutton@2x.png')");
             
 
         } else {
             player.play();
             geklikt = true;
-            $(this).parents(".videoaccordion").find('.playpause').css("background-image", "url('..//icons/pausebutton@2x.png')");
+            $(this).parents(".videoaccordion").find('.playpause').css("background-image", "url('../icons/pausebutton@2x.png')");
         }
 
 

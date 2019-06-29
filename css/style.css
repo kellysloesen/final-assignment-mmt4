@@ -64,7 +64,7 @@ li a {
 }
 
 .headerfoto {
-      background: linear-gradient( rgba(29, 0, 255, 0.9), rgba(0, 118, 255, 0.9)), url(..//img/src/daria-nepriakhina-736026-unsplash@2x.jpg);
+      background: linear-gradient( rgba(29, 0, 255, 0.9), rgba(0, 118, 255, 0.9)), url(../img/src/daria-nepriakhina-736026-unsplash@2x.jpg);
       height: 700px;
       background-position: center;
       background-repeat: no-repeat;
@@ -173,7 +173,7 @@ li a {
       color: #FFFF;
       border-radius: 10px;
       border: 0;
-      background-image: url(..//icons/download_icon@2x.png);
+      background-image: url(../icons/download_icon@2x.png);
       background-repeat: no-repeat;
       background-position: left;
       background-position-x: 15px;
@@ -189,7 +189,7 @@ li a {
       border-radius: 30px;
       border: 0px solid;
       background-color: #BBFFB2;
-      background-image: url(..//icons/done_icon@2x.png);
+      background-image: url(../icons/done_icon@2x.png);
       background-repeat: no-repeat;
       background-position-x: 50%;
       background-position-y: 50%;
@@ -202,7 +202,7 @@ li a {
 .ui-accordion-header-collapsed {
       color: #4B4B4B;
       border: 1px solid #EBEBEB;
-      background-image: url(..//icons/pijltje_collapsed@2x.png);
+      background-image: url(../icons/pijltje_collapsed@2x.png);
       background-repeat: no-repeat;
       background-position-y: 50%;
       background-position-x: 0.5%;
@@ -211,7 +211,7 @@ li a {
 .ui-accordion-header-active {
       color: #1D00FF;
       border: 1px solid #1D00FF;
-      background-image: url(..//icons/pijltje_active@2x.png);
+      background-image: url(../icons/pijltje_active@2x.png);
       background-repeat: no-repeat;
       background-position-y: 30%;
       background-position-x: 1%;
@@ -223,7 +223,7 @@ li a {
       border-radius: 50%;
       background-color: white;
       border: 0px solid;
-      background-image: url(..//icons/rewind_icon@2x.png);
+      background-image: url(../icons/rewind_icon@2x.png);
       background-repeat: no-repeat;
       background-position-y: 50%;
       background-position-x: 50%;
@@ -239,7 +239,7 @@ li a {
       border-radius: 50%;
       background-color: white;
       border: 0px solid;
-      background-image: url(..//icons/playbutton@2x.png);
+      background-image: url(../icons/playbutton@2x.png);
       background-repeat: no-repeat;
       background-position-y: 50%;
       background-position-x: 40%;
@@ -255,7 +255,7 @@ li a {
       border-radius: 50%;
       background: #BBFFB2;
       border: 0px solid;
-      background-image: url(..//icons/done_icon@2x.png);
+      background-image: url(../icons/done_icon@2x.png);
       background-repeat: no-repeat;
       background-position-y: 50%;
       background-position-x: 50%;
@@ -366,7 +366,7 @@ li a {
 }
 
 .footerfoto {
-      background: linear-gradient( rgba(255, 175, 227, 0.9), rgba(204, 0, 133, 0.9)), url(..//img/src/nicole-wolf-1339717-unsplash@2x.jpg);
+      background: linear-gradient( rgba(255, 175, 227, 0.9), rgba(204, 0, 133, 0.9)), url(../img/src/nicole-wolf-1339717-unsplash@2x.jpg);
       width: 100%;
       height: 380px;
       background-position: center;
