@@ -42,20 +42,18 @@ $('video').each(function () {
     $(this).parents(".videoaccordion").find(".playpause").click(function(){ 
 
         
-        if (geklikt) {
-            player.pause();
-            geklikt = false;
-            $(this).parents(".videoaccordion").find('.playpause').css("background-image", "url('../icons/playbutton@2x.png')");
+        if (!geklikt) {
+            $(".playpause").addClass('pause');
+            player.play();
+            geklikt = true;
             
 
         } else {
-            player.play();
-            geklikt = true;
-            $(this).parents(".videoaccordion").find('.playpause').css("background-image", "url('../icons/pausebutton@2x.png')");
+            $(".playpause").removeClass('pause');
+            player.pause();
+            geklikt = false;
+             
         }
-
-
-
 });
 
 
@@ -78,7 +76,6 @@ $('#switch').change(function () {
 } else {
     $('body').removeClass('dark')
     $('#logo').attr('src', 'icons/logo@2x.svg');
-
 }
 
 });

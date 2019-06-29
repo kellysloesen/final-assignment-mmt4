@@ -249,6 +249,11 @@ li a {
       left: 45%;
 }
 
+
+.pause {
+      background-image: url(../icons/pausebutton@2x.png);
+}
+
 .videocheck {
       width: 6%;
       height: 10%;
@@ -617,6 +622,7 @@ body.dark {
 .dark .tekstmodal {
       color: #119910;
 }
+
 
 
 
